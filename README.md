@@ -7,21 +7,21 @@ original license is GPL3, so this repack is also GPL3,
 and for this reason it is also available only as a command-line callable DockQ (no .py extension)
 
 I've reformatted original code to make it somewhat readable, 
-and deleted prints that were commented out.
+and deleted prints that were commented out. 
 
 Install with `pip install git+https://github.com/arogozhnikov/microDockQ.git`.
 
-Use with `DockQ ...` (this binary becomes available in your python venv, no .py, available anywhere)
+Use with `DockQ ...` (this binary becomes available in your python venv, available anywhere, no .py in name)
 
 Installation does not require building or installing anything, as
 original code was [cosmopolitanized](https://github.com/jart/cosmopolitan).
 
-DockQ for some operations complains on the lack of needle, you can install it with emboss:
+DockQ for some operations complains on the lack of needle, you can install it with:
 ```bash
 apt install emboss
 ```
 
-Original readme follows:
+Original project readme follows:
 
 ---
 
