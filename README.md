@@ -9,8 +9,9 @@ and for this reason it is also available only as a command-line callable DockQ (
 I've reformatted original code to make it somewhat readable, 
 and deleted prints that were commented out.
 
-Install with pip install
-Use with `DockQ ...` (this binary becomes available in your python venv)
+Install with `pip install git+https://github.com/arogozhnikov/microDockQ.git`.
+
+Use with `DockQ ...` (this binary becomes available in your python venv, no .py, available anywhere)
 
 Installation does not require building or installing anything, as
 original code was [cosmopolitanized](https://github.com/jart/cosmopolitan).
