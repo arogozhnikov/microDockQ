@@ -1,3 +1,29 @@
+## microDockQ 
+
+this is pip-friendly repackaging of DockQ, original code available here:
+https://github.com/bjornwallner/DockQ/commit/7a0a1c49ec70e2db68cb160abbe6aaf2f844a4ec
+
+original license is GPL3, so this repack is also GPL3,
+and for this reason it is also available only as a command-line callable DockQ (no .py extension)
+
+I've reformatted original code to make it somewhat readable, 
+and deleted prints that were commented out.
+
+Install with pip install
+Use with `DockQ ...` (this binary becomes available in your python venv)
+
+Installation does not require building or installing anything, as
+original code was [cosmopolitanized](https://github.com/jart/cosmopolitan).
+
+DockQ for some operations complains on the lack of needle, you can install it with emboss:
+```bash
+apt install emboss
+```
+
+Original readme follows:
+
+---
+
 # DockQ
 Requires python packages: `numpy` and `Biopython`
 
