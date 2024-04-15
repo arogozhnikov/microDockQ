@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+# that's not real version, dockq does not have versions...
+# 7a0a1c4 is commit which I baked this from.
+version = '1.0.dev0'
+name = "dockq"
+readme = "README.md"
+requires-python = ">=3.9"
+
+# as listed in project requirements
+dependencies = [
+    "numpy",
+    "biopython>=1.64"
+]
+
+[tool.ruff]
+line-length = 120
+
+[project.scripts]
+DockQ = "dockq.DockQ:main"
+
